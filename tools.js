@@ -20,3 +20,10 @@ export function pow(x,a) {
   */
   return Math.pow(x,a)
 }
+
+export function mod(x,a) {
+  /*
+  * x mod a
+  */
+  return x%a;
+}
