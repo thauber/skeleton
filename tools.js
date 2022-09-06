@@ -13,3 +13,10 @@ export function div(x,y){
 export function mux(x,y){
   return x*y;
 }
+
+export function pow(x,a) {
+  /*
+  * x to the a power
+  */
+  return Math.pow(x,a)
+}
